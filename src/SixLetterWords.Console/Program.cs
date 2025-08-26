@@ -6,7 +6,7 @@ public class Program {
 
   public static async Task Main(string[] args) {
     System.Console.WriteLine("Starting");
-    
+    // Improvement: Add proper dependency injection
     // Input: Read the input file
     var loader = new Loader();
     var rawInput = await loader.ReadAsync();
